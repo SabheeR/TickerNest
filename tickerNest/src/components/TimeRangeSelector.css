@@ -1,0 +1,15 @@
+.time-range {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.time-range button {
+  padding: 0.5rem;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.time-range button:hover {
+  background-color: #1d1f1f;
+}

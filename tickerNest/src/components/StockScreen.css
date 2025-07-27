@@ -1,0 +1,6 @@
+.stock-screen {
+  padding: 1.5rem;
+  max-width: 400px;
+  margin: auto;
+  text-align: left; /* Force left alignment */
+}

@@ -1,0 +1,9 @@
+.chart-placeholder {
+  height: 200px;
+  background-color: #1c1e1e;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #888;
+}
