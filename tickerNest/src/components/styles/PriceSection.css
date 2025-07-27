@@ -1,0 +1,64 @@
+.price-section-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.price-section {
+  text-align: left;
+  display: inline-block;
+}
+
+.label {
+  font-size: 0.9rem;
+  color: #999;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.gold-btn {
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  height: fit-content;
+  box-shadow: 0 0 4px rgba(255, 215, 0, 0.4);
+  transition: opacity 0.2s ease;
+}
+
+.gold-btn:hover {
+  opacity: 0.9;
+}
+
+.price-section h2 {
+  font-size: 2rem;
+  margin: 0.3rem 0;
+  color: #fff;
+}
+
+.change-block {
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.change-row {
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+  font-weight: 500;
+}
+
+.positive {
+  color: #00e676;
+}
+
+.negative {
+  color: #ef5350;
+}
+

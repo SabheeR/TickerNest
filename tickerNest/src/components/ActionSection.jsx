@@ -1,5 +1,5 @@
 import React from 'react';
-import './ActionSection.css';
+import './styles/ActionSection.css';
 
 const ActionSection = () => (
   <div className="action-placeholder" />

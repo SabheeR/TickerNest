@@ -1,0 +1,38 @@
+.promo-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 1rem 0.5rem;
+  gap: 1rem;
+  margin: 1rem 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.promo-card {
+  min-width: 85%;
+  background-color: #1a1c1c;
+  border-radius: 12px;
+  padding: 1rem;
+  scroll-snap-align: start;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.promo-title {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.promo-desc {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin-bottom: 0.75rem;
+}
+
+.promo-cta {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #00e676;
+  text-decoration: none;
+}

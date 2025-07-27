@@ -1,9 +1,9 @@
 import React from 'react';
-import './PriceSection.css';
+import './styles/PriceSection.css';
 
 const PriceSection = () => {
-  const todayChange = 754.12;     // positive
-  const overnightChange = -12.87; // negative
+  const todayChange = 754.12;
+  const overnightChange = -12.87;
 
   const renderChange = (label, amount) => {
     const sign = amount >= 0 ? '▲' : '▼';
@@ -18,15 +18,20 @@ const PriceSection = () => {
   };
 
   return (
-    <div className="price-section">
-      <p className="label">investing</p>
-      <h2>$13,987.98</h2>
-      <div className="change-block">
-        {renderChange('Today', todayChange)}
-        {renderChange('Overnight', overnightChange)}
+    <div className="price-section-row">
+      <div className="price-section">
+        <p className="label">investing</p>
+        <h2>$13,987.98</h2>
+        <div className="change-block">
+          {renderChange('Today', todayChange)}
+          {renderChange('Overnight', overnightChange)}
+        </div>
       </div>
+
+      <button className="gold-btn">Gold</button>
     </div>
   );
 };
 
 export default PriceSection;
+

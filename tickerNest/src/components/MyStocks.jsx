@@ -1,5 +1,5 @@
 import React from 'react';
-import './MyStocks.css';
+import './styles/MyStocks.css';
 
 const stocks = [
   { ticker: 'AAPL', name: 'Apple', price: 171.20, change: -1.23, shares: 10 },      // $1,712.00

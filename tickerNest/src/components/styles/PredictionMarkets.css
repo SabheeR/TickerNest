@@ -1,0 +1,42 @@
+.prediction-markets {
+  padding: 1rem 0.5rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.section-title {
+  color: #ccc;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.prediction-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+  padding: 0.75rem 0;
+}
+
+.prediction-info {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.contracts {
+  font-size: 0.8rem;
+  color: #bbb;
+  margin-top: 0.1rem;
+}
+
+.prediction-value {
+  background-color: #00c853;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #fff;
+}

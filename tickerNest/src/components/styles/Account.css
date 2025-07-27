@@ -1,0 +1,130 @@
+.account-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 12px;
+  color: white;
+  background-color: #121212;
+  min-height: 100vh;
+}
+
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  background-color: #333;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.username-placeholder {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #ddd;
+}
+
+.investment-summary {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.investment-box {
+  background-color: #1e1e1e;
+  padding: 12px 18px;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 140px;
+}
+
+.investment-label {
+  color: #aaa;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.investment-value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.total-box {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.total-label {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 2px;
+}
+
+.total-value {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.add-account-link {
+  margin-top: 6px;
+  color: #00e676;
+  font-size: 14px;
+  text-decoration: none;
+  border: 1px solid #00e676;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.investment-summary {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: nowrap; /* force side-by-side */
+}
+
+.total-tickernest {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.total-tickernest strong {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.username-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.username-section h2 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0;
+}
+
+.settings-btn {
+  background: none;
+  border: none;
+  color: #ccc;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.settings-btn:hover {
+  color: #fff;
+}

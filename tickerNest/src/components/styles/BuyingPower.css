@@ -1,0 +1,44 @@
+.buying-power {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 0 0.5rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+.bp-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.bp-label {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin: 0;
+}
+
+.bp-amount {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0;
+  font-weight: 500;
+}
+
+.bp-button {
+  background-color: #00e676;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.bp-button:hover {
+  opacity: 0.9;
+}

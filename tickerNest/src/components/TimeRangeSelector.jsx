@@ -1,5 +1,5 @@
 import React from 'react';
-import './TimeRangeSelector.css';
+import './styles/TimeRangeSelector.css';
 
 const ranges = ['1D', '1W', '1M', '3M', '1Y', '5Y'];
 
