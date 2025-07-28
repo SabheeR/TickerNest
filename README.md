@@ -16,6 +16,10 @@ TickerNest is a modern, minimalist stock trading simulation app inspired by Robi
   <img src="https://github.com/user-attachments/assets/660abc42-5a5a-436d-8bb7-cc59f859a8e2" alt="thumbnail_image5" width="30%" />
 </p>
 
+## 🔐 Test Login
+
+- Username: user@test.com Password: password
+
 ## 🚀 Features
 
 - 🔐 User authentication with Firebase (sign up / log in)
