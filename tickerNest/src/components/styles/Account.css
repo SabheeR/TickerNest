@@ -4,7 +4,7 @@
   align-items: center;
   padding: 20px 12px;
   color: white;
-  background-color: #121212;
+  background-color: #0d0d0d;
   min-height: 100vh;
 }
 
@@ -102,29 +102,51 @@
   color: #ffffff;
 }
 
-.username-section {
+.investment-breakdown {
+  margin: 40px auto;
+  padding: 24px;
+  width: 100%;
+  max-width: 370px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+
+.investment-breakdown h3 {
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #00e676;
+}
+
+.investment-item {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  margin-bottom: 20px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 1rem;
 }
 
-.username-section h2 {
-  font-size: 1.2rem;
+.investment-item strong {
   color: #fff;
-  margin: 0;
 }
 
-.settings-btn {
-  background: none;
-  border: none;
-  color: #ccc;
-  font-size: 1.2rem;
+.logout-button {
+  background-color: transparent;
+  color: #ef4444; /* Tailwind Red-500 */
+  border: 2px solid #ef4444;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
-  transition: color 0.2s ease;
+  margin: 20px auto;
+  display: block;
 }
 
-.settings-btn:hover {
-  color: #fff;
+.logout-button:hover {
+  background-color: #ef4444;
+  color: white;
 }
+

@@ -1,18 +1,24 @@
 .top-bar {
-  max-width: 400px;          /* same as main app width */
-  margin: 0 auto;            /* centers the top-bar horizontally */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
-  background-color: #0e1111;
+  padding: 1rem 1.2rem;
+  background-color: #0d0d0d; /* Match app background */
+  color: white;
 }
 
-.logo {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #00e676;
+
+.topbar-logo {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
 }
+
+.logo-img {
+  height: 40px; /* adjust size as needed */
+  object-fit: contain;
+}
+
 
 .notif-btn {
   background: none;

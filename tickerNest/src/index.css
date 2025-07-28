@@ -12,3 +12,15 @@ button {
   font-size: 1rem;
   cursor: pointer;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #0d0d0d; /* Match your login background */
+  overflow-x: hidden;
+}
+
+#root {
+  height: 100%;
+}
