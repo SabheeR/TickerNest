@@ -1,9 +1,9 @@
 <h1 align="center">
   <img src="https://github.com/user-attachments/assets/40c35ba8-b45e-49dc-9eaf-39fe719a9e1d" alt="TickerNest Logo" width="40" height="40" />
-  TickerNest
+  Ticker Nest
 </h1>
 
-TickerNest is a modern, minimalist stock trading simulation app inspired by Robinhood. It allows users to track stock performance, manage a simulated investment portfolio, and explore prediction markets — all in a sleek, mobile-first UI.
+Ticker Nest is a modern, minimalist stock trading simulation app inspired by Robinhood. It allows users to track stock performance, manage a simulated investment portfolio, and explore prediction markets — all in a sleek, mobile-first UI.
 
 
 <!-- Row 1 -->
