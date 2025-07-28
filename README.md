@@ -2,9 +2,19 @@
 
 TickerNest is a modern, minimalist stock trading simulation app inspired by Robinhood. It allows users to track stock performance, manage a simulated investment portfolio, and explore prediction markets — all in a sleek, mobile-first UI.
 
-![thumbnail_image0](https://github.com/user-attachments/assets/2c0b376c-7b42-43cb-901e-dd89cac4dac7) ![thumbnail_image1](https://github.com/user-attachments/assets/470a2d8c-275f-402c-b90d-6042a33deb4e)
+<!-- Row 1 -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2c0b376c-7b42-43cb-901e-dd89cac4dac7" alt="thumbnail_image0" width="30%" />
+  <img src="https://github.com/user-attachments/assets/6e2792d8-e0f3-4222-960a-544168bc946f" alt="thumbnail_image1" width="30%" />
+  <img src="https://github.com/user-attachments/assets/8c552ed3-192c-463f-89c7-db270a1f0dcc" alt="thumbnail_image2" width="30%" />
+</p>
 
-
+<!-- Row 2 -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/84112998-3cc3-4c0d-9849-8c9edc370438" alt="thumbnail_image3" width="30%" />
+  <img src="https://github.com/user-attachments/assets/813df4c6-fc0c-4764-911e-9f1f51bd5899" alt="thumbnail_image4" width="30%" />
+  <img src="https://github.com/user-attachments/assets/660abc42-5a5a-436d-8bb7-cc59f859a8e2" alt="thumbnail_image5" width="30%" />
+</p>
 
 ## 🚀 Features
 
