@@ -1,8 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+/* eslint-env node */
 
-// https://vite.dev/config/
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
 export default defineConfig({
+  base: process.env.VITE_BASE_PATH || "/TickerNest",
   plugins: [react()],
-  base: import.meta.env.VITE_BASE_PATH || "/TickerNest/tree/main/tickerNest",
-})
+});
